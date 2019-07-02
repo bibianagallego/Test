@@ -10,7 +10,7 @@
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Bstnk" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Cust. Reference"
 					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Ernam" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Created by" sap:creatable="false"
 					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="HeaderToDetails" Relationship="ZTRAINING_BGM_SRV.Orders_Detail" FromRole="FromRole_Orders_Detail"
-					ToRole="ToRole_Orders_Detail"/></EntityType>
+					ToRole="ToRole_Orders_Detail"/></EntityType> 
 			<EntityType Name="Orders_detail" sap:content-version="1">
 				<Key><PropertyRef Name="IVbeln"/></Key><Property Name="RecTime" Type="Edm.Time" Precision="0" sap:unicode="false" sap:label="Time" sap:creatable="false" sap:updatable="false"
 					sap:sortable="false" sap:filterable="false"/><Property Name="IVbeln" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Sales Document"
