@@ -1,9 +1,9 @@
-<mvc:View controllerName="perce.Sales_Order.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="perce.Sales_Order.controller.App" displayBlock="true" id="P1941645652">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content/>
 				</Page>
 			</pages>
 		</App>
